@@ -8,11 +8,11 @@ unit_test_dbt:
       type: postgres
       threads: 1
       host: localhost
-      port: 5432
+      port: 5433
       user: sde
       pass: password
-      dbname: prodWarehouse
-      schema: dev
+      dbname: devWarehouse
+      schema: startdataengg
     prod:
       type: postgres
       threads: 1
@@ -20,6 +20,6 @@ unit_test_dbt:
       port: 5432
       user: sde
       pass: password
-      dbname: devWarehouse
-      schema: prod
+      dbname: prodWarehouse
+      schema: startdataengg
   target: dev

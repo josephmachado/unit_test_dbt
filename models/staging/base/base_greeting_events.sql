@@ -1,2 +1,2 @@
 select *
-from prod.raw_greeting_events
+from startdataengg.raw_greeting_events
