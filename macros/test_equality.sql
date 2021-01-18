@@ -7,11 +7,11 @@
 
 select count(*) from ((select * from {{ model }} except select * from {{ compare_model }} )  union (select * from {{ compare_model }} except select * from {{ model }} )) tmp
 
- {%- else -%}
+{%- else -%}
 
-    select 0
+select 0
 
-  {%- endif -%}
+{%- endif -%}
 
 {% endmacro %}
 
