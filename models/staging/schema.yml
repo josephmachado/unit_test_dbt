@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_greeting_events
+    columns:
+      - name: greeting_id
+        tests:
+          - not_null
+          - unique

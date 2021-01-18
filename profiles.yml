@@ -1,0 +1,25 @@
+
+# For more information on how to configure this file, please see:
+# https://docs.getdbt.com/docs/profile
+
+unit_test_dbt:
+  outputs:
+    dev:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: sde
+      pass: password
+      dbname: prodWarehouse
+      schema: dev
+    prod:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: sde
+      pass: password
+      dbname: devWarehouse
+      schema: prod
+  target: dev

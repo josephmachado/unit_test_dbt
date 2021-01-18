@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: fct_greeting_events
+    description: This table has all the greetings sent by users
+
+    columns:
+      - name: greeting_id
+        description: This is a unique identifier for a greeting event
+        tests:
+          - unique
+          - not_null
+
+    tests:
+      - unit_test_dbt.equality:
+          compare_model: ref('expected_transformed_greeting_events')
+          env: dev

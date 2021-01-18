@@ -1,0 +1,8 @@
+greeting_id,processed_greeting_text,datetime_created
+1,hello world,2021-01-01 08:00:00
+2,henlo world,2021-01-01 08:00:00
+3,hi world,2021-01-01 08:00:00
+4,yo world,2021-01-01 08:00:00
+5,meaw world,2021-01-01 08:00:00
+6,moo world,2021-01-01 08:00:00
+7,woof world,2021-01-01 08:00:00
