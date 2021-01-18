@@ -1,6 +1,6 @@
 with source as (
   {% if target.name == 'dev' %}
-  select * from {{ ref('input_greeting_events') }}
+  select * from {{ ref('input_base_greeting_events') }}
   {% else %}
   select * from {{ ref('base_greeting_events') }}
   {% endif %}
