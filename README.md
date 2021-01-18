@@ -1,4 +1,4 @@
-Code for blog at http://www.startdataengineering.com/post/how-to-test-sql-using-dbt/
+Code for upcoming blog at http://www.startdataengineering.com/post/how-to-test-sql-using-dbt/
 
 ## Pre-requisites
 
