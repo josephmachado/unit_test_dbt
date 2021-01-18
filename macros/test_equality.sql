@@ -14,6 +14,3 @@ select 0
 {%- endif -%}
 
 {% endmacro %}
-
-
-{% endmacro %}
